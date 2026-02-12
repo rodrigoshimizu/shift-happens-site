@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
-            <img src={logoShift} alt="SHIFT" className="h-8 brightness-0 invert" />
+            <img src={logoShift} alt="SHIFT" className="h-10 opacity-90" style={{ filter: "brightness(0) invert(1) contrast(1.2)" }} />
             <p className="text-primary-foreground/50 text-sm mt-1">
               Líderes em Movimento
             </p>
