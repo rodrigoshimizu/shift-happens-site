@@ -40,7 +40,7 @@ const Navbar = () => {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="text-base font-bold text-muted-foreground hover:text-foreground transition-colors"
             >
               {item.label}
             </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <a
               key={item.href}
               href={item.href}
-              className="block py-3 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="block py-3 text-base font-bold text-muted-foreground hover:text-foreground transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               {item.label}
