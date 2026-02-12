@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logoShift from "@/assets/logo-shift.jpeg";
 
 const navItems = [
   { label: "Início", href: "#hero" },
@@ -29,8 +30,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <a href="#hero" className="text-2xl font-extrabold tracking-tighter text-foreground">
-          SHIFT
+        <a href="#hero">
+          <img src={logoShift} alt="SHIFT" className="h-8 md:h-10" />
         </a>
 
         {/* Desktop Nav */}

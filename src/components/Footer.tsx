@@ -1,3 +1,5 @@
+import logoShift from "@/assets/logo-shift.jpeg";
+
 const footerLinks = [
   { label: "Início", href: "#hero" },
   { label: "Sobre", href: "#about" },
@@ -13,9 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
-            <span className="text-2xl font-extrabold tracking-tighter text-primary-foreground">
-              SHIFT
-            </span>
+            <img src={logoShift} alt="SHIFT" className="h-8 brightness-0 invert" />
             <p className="text-primary-foreground/50 text-sm mt-1">
               Líderes em Movimento
             </p>
