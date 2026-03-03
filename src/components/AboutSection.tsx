@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 md:py-32 bg-background">
+    <section id="about" className="py-24 md:py-32 bg-section-alt">
       <div className="container mx-auto px-6 max-w-3xl">
         <h2 className="text-3xl md:text-5xl font-extrabold text-foreground mb-12 text-balance">
           O SHIFT
