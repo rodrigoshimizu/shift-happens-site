@@ -1,3 +1,5 @@
+import ApplyFormDialog from "./ApplyFormDialog";
+
 const ApplySection = () => {
   return (
     <section id="apply" className="py-24 md:py-32 bg-foreground">
@@ -8,12 +10,11 @@ const ApplySection = () => {
         <p className="text-primary-foreground/70 text-lg mb-10 leading-relaxed">
           Inicie sua aplicação e descubra como o SHIFT pode transformar sua jornada de pós-carreira em uma fase de propósito e impacto.
         </p>
-        <a
-          href="#"
-          className="inline-block bg-accent text-accent-foreground px-10 py-4 rounded-lg text-base font-bold hover:opacity-90 transition-opacity shadow-lg"
-        >
-          Aplique para o SHIFT
-        </a>
+        <ApplyFormDialog>
+          <button className="inline-block bg-accent text-accent-foreground px-10 py-4 rounded-lg text-base font-bold hover:opacity-90 transition-opacity shadow-lg">
+            Aplique para o SHIFT
+          </button>
+        </ApplyFormDialog>
       </div>
     </section>
   );
