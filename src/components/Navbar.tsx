@@ -4,7 +4,7 @@ import logoShift from "@/assets/logo-shift.jpeg";
 
 const navItems = [
   
-  { label: "Sobre", href: "#about" },
+  { label: "Quem somos", href: "#about" },
   { label: "Pilares", href: "#pillars" },
   { label: "Para Quem", href: "#for-who" },
   { label: "Processo", href: "#process" },
