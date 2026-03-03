@@ -10,7 +10,7 @@ const profiles = [
 
 const ForWhoSection = () => {
   return (
-    <section id="for-who" className="py-24 md:py-32 bg-inherit">
+    <section id="for-who" className="py-24 md:py-32 bg-section-alt">
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
           O SHIFT é para você se...

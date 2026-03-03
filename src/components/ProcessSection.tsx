@@ -9,7 +9,7 @@ const steps = [
 
 const ProcessSection = () => {
   return (
-    <section id="process" className="py-24 md:py-32 bg-section-alt bg-background">
+    <section id="process" className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
           Processo de Admissão
