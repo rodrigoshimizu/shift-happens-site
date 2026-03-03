@@ -17,7 +17,7 @@ const HeroSection = () => {
           Líderes em Movimento
         </h1>
         <p className="mt-4 text-lg text-primary-foreground/80 max-w-2xl mx-auto animate-fade-in-up [animation-delay:200ms] opacity-0 md:text-3xl">
-
+          Seu ciclo pós-carreira merece curadoria
         </p>
         <p className="mt-6 text-base md:text-lg text-primary-foreground/60 max-w-xl mx-auto animate-fade-in-up [animation-delay:400ms] opacity-0">O SHIFT conecta líderes em movimento a pares, repertório e novas oportunidades
 
