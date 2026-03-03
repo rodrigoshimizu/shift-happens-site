@@ -6,7 +6,7 @@ import {
 import { ReactNode } from "react";
 
 // Substitua pela URL do seu formulário Tally
-const TALLY_FORM_URL = "https://tally.so/embed/KYM4zk?alignLeft=1&hideTitle=1&dynamicHeight=1";
+const TALLY_FORM_URL = "https://tally.so/embed/KYM4zk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1";
 
 interface ApplyFormDialogProps {
   children: ReactNode;
