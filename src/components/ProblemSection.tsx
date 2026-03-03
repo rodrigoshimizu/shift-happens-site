@@ -1,20 +1,5 @@
 const ProblemSection = () => {
-  return;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  return null;
 };
 
 export default ProblemSection;

@@ -4,7 +4,7 @@ const partners = [
 
 const PartnersSection = () => {
   return (
-    <section className="py-20 bg-background border-t border-border">
+    <section className="py-20 bg-section-alt">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-xl md:text-2xl font-bold text-foreground mb-2">
           Complementado por um ecossistema de parceiros
