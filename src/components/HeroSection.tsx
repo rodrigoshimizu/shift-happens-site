@@ -16,11 +16,11 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground leading-tight animate-fade-in-up max-w-4xl mx-auto text-balance">
           Líderes em Movimento
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto animate-fade-in-up [animation-delay:200ms] opacity-0">
-          A jornada da sua pós-carreira começa aqui.
+        <p className="mt-4 text-lg text-primary-foreground/80 max-w-2xl mx-auto animate-fade-in-up [animation-delay:200ms] opacity-0 md:text-3xl">
+
         </p>
-        <p className="mt-6 text-base md:text-lg text-primary-foreground/60 max-w-xl mx-auto animate-fade-in-up [animation-delay:400ms] opacity-0">
-          O SHIFT é a plataforma de relacionamento para executivos seniores que buscam reinvenção, propósito e continuidade produtiva.
+        <p className="mt-6 text-base md:text-lg text-primary-foreground/60 max-w-xl mx-auto animate-fade-in-up [animation-delay:400ms] opacity-0">O SHIFT conecta líderes em movimento a pares, repertório e novas oportunidades
+
         </p>
         <div className="mt-10 animate-fade-in-up [animation-delay:600ms] opacity-0">
           <ApplyFormDialog>
@@ -35,8 +35,8 @@ const HeroSection = () => {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-primary-foreground/50">
         <ChevronDown size={32} />
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
