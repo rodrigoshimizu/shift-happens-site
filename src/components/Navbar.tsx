@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const navItems = [
-  { label: "Início", href: "#hero" },
+  
   { label: "Sobre", href: "#about" },
   { label: "Pilares", href: "#pillars" },
   { label: "Para Quem", href: "#for-who" },
