@@ -11,12 +11,12 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground border-t border-primary-foreground/10 py-12">
+    <footer className="bg-muted border-t border-border py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <img src={logoShift} alt="SHIFT" className="h-10" />
-            <p className="text-primary-foreground/50 text-sm mt-1">
+            <p className="text-muted-foreground text-sm mt-1">
               Líderes em Movimento
             </p>
           </div>
@@ -26,7 +26,7 @@ const Footer = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {link.label}
               </a>
@@ -34,15 +34,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-primary-foreground/40">
+        <div className="mt-10 pt-6 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} SHIFT. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-xs text-primary-foreground/40 hover:text-primary-foreground/70 transition-colors">
+            <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Política de Privacidade
             </a>
-            <a href="#" className="text-xs text-primary-foreground/40 hover:text-primary-foreground/70 transition-colors">
+            <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Termos de Uso
             </a>
           </div>
