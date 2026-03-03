@@ -5,7 +5,8 @@ const profiles = [
 { icon: Briefcase, text: "Busca autonomia profissional e novos desafios" },
 { icon: Users, text: "Prepara-se para atuar em conselhos ou advisory" },
 { icon: Shield, text: "Deseja compartilhar experiência e fazer mentoria" },
-{ icon: Target, text: "Quer continuar gerando impacto com propósito" }];
+{ icon: Target, text: "Quer continuar gerando impacto com propósito" },
+{ icon: Users, text: "Quer construir novas conexões e ampliar conhecimentos" }];
 
 
 const ForWhoSection = () => {
