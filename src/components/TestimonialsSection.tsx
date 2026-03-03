@@ -20,7 +20,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-24 md:py-32 bg-inherit">
+    <section id="testimonials" className="py-24 md:py-32 bg-section-alt">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
           Depoimentos
