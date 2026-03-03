@@ -3,28 +3,21 @@ import {
   DialogContent,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { ReactNode } from "react";
-
-// Substitua pela URL do seu formulário Tally
-const TALLY_FORM_URL = "https://tally.so/embed/KYM4zk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1";
+import { ReactNode, useState } from "react";
+import ApplyForm from "./ApplyForm";
 
 interface ApplyFormDialogProps {
   children: ReactNode;
 }
 
 const ApplyFormDialog = ({ children }: ApplyFormDialogProps) => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <Dialog>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="max-w-2xl w-full h-[85vh] p-0 overflow-hidden">
-        <iframe
-          src={TALLY_FORM_URL}
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          title="Formulário de Aplicação SHIFT"
-          className="rounded-lg"
-        />
+      <DialogContent className="max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8">
+        <ApplyForm onSuccess={() => setOpen(false)} />
       </DialogContent>
     </Dialog>
   );
