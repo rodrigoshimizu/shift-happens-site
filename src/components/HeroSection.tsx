@@ -1,5 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { ChevronDown } from "lucide-react";
+import ApplyFormDialog from "./ApplyFormDialog";
 
 const HeroSection = () => {
   return (
@@ -22,12 +23,11 @@ const HeroSection = () => {
           O SHIFT é a plataforma de relacionamento para executivos seniores que buscam reinvenção, propósito e continuidade produtiva.
         </p>
         <div className="mt-10 animate-fade-in-up [animation-delay:600ms] opacity-0">
-          <a
-            href="#apply"
-            className="inline-block bg-accent text-accent-foreground px-8 py-4 rounded-lg text-base font-bold hover:opacity-90 transition-opacity shadow-lg"
-          >
-            Aplique para o SHIFT
-          </a>
+          <ApplyFormDialog>
+            <button className="inline-block bg-accent text-accent-foreground px-8 py-4 rounded-lg text-base font-bold hover:opacity-90 transition-opacity shadow-lg">
+              Aplique para o SHIFT
+            </button>
+          </ApplyFormDialog>
         </div>
       </div>
 
