@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -118,8 +119,31 @@ const ApplyForm = ({ onSuccess }: ApplyFormProps) => {
   });
 
   const onSubmit = async (data: ApplyFormData) => {
-    // For now, log and show success. Connect to backend later.
-    console.log("Form submitted:", { ...data, email: "[redacted]" });
+    const { error } = await supabase.from("applications").insert({
+      nome: data.nome,
+      sobrenome: data.sobrenome,
+      celular: data.celular,
+      email: data.email,
+      linkedin: data.linkedin,
+      cep: data.cep,
+      experiencia: data.experiencia,
+      nivel: data.nivel,
+      hierarquia: data.hierarquia,
+      reportes: data.reportes,
+      tamanho_empresa: data.tamanhoEmpresa,
+      faturamento: data.faturamento,
+      informacoes_adicionais: data.informacoesAdicionais || null,
+      como_soube: data.comoSoube,
+      aceita_sms: data.aceitaSms ?? false,
+      aceita_newsletter: data.aceitaNewsletter ?? false,
+    });
+
+    if (error) {
+      toast.error("Erro ao enviar inscrição. Tente novamente.");
+      console.error("Insert error:", error.message);
+      return;
+    }
+
     setSubmitted(true);
     toast.success("Inscrição enviada com sucesso!");
     setTimeout(() => onSuccess?.(), 2000);

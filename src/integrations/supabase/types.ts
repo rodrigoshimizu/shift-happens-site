@@ -14,7 +14,69 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      applications: {
+        Row: {
+          aceita_newsletter: boolean | null
+          aceita_sms: boolean | null
+          celular: string
+          cep: string
+          como_soube: string
+          created_at: string
+          email: string
+          experiencia: string
+          faturamento: string
+          hierarquia: string
+          id: string
+          informacoes_adicionais: string | null
+          linkedin: string
+          nivel: string
+          nome: string
+          reportes: string
+          sobrenome: string
+          tamanho_empresa: string
+        }
+        Insert: {
+          aceita_newsletter?: boolean | null
+          aceita_sms?: boolean | null
+          celular: string
+          cep: string
+          como_soube: string
+          created_at?: string
+          email: string
+          experiencia: string
+          faturamento: string
+          hierarquia: string
+          id?: string
+          informacoes_adicionais?: string | null
+          linkedin: string
+          nivel: string
+          nome: string
+          reportes: string
+          sobrenome: string
+          tamanho_empresa: string
+        }
+        Update: {
+          aceita_newsletter?: boolean | null
+          aceita_sms?: boolean | null
+          celular?: string
+          cep?: string
+          como_soube?: string
+          created_at?: string
+          email?: string
+          experiencia?: string
+          faturamento?: string
+          hierarquia?: string
+          id?: string
+          informacoes_adicionais?: string | null
+          linkedin?: string
+          nivel?: string
+          nome?: string
+          reportes?: string
+          sobrenome?: string
+          tamanho_empresa?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
