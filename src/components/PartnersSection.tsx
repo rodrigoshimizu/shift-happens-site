@@ -1,12 +1,17 @@
-import { ExternalLink } from "lucide-react";
+import logoHsm from "@/assets/logo_hsm.webp";
+import logoSingularity from "@/assets/logo_singularity.webp";
+import logoLearning from "@/assets/logo_learning.png";
+import logoAnima from "@/assets/logo_anima.png";
+import logoCordonBleu from "@/assets/logo_le_cordon_bleu.png";
+import logoB2bMatch from "@/assets/logo_b2b_match.svg";
 
 const partners = [
-  { name: "HSM", url: "https://www.hsm.com.br" },
-  { name: "Singularity Brazil", url: "https://www.singularityubrazil.com" },
-  { name: "Learning Village", url: "https://learningvillage.com.br" },
-  { name: "Ânima", url: "https://animaeducacao.com.br" },
-  { name: "Le Cordon Bleu", url: "https://www.cordonbleu.edu" },
-  { name: "B2B Match", url: "https://b2bmatch.com.br" },
+  { name: "HSM", url: "https://www.hsm.com.br", logo: logoHsm, darkBg: true },
+  { name: "Singularity Brazil", url: "https://www.singularityubrazil.com", logo: logoSingularity, darkBg: false },
+  { name: "Learning Village", url: "https://learningvillage.com.br", logo: logoLearning, darkBg: true },
+  { name: "Ânima", url: "https://animaeducacao.com.br", logo: logoAnima, darkBg: false },
+  { name: "Le Cordon Bleu", url: "https://www.cordonbleu.edu", logo: logoCordonBleu, darkBg: false },
+  { name: "B2B Match", url: "https://b2bmatch.com.br", logo: logoB2bMatch, darkBg: true },
 ];
 
 const PartnersSection = () => {
@@ -27,10 +32,16 @@ const PartnersSection = () => {
               href={p.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center gap-2 px-6 py-5 bg-secondary rounded-xl text-sm font-bold text-secondary-foreground border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-300"
+              className={`group flex items-center justify-center px-6 py-6 rounded-xl border border-border hover:border-accent/40 hover:scale-105 transition-all duration-300 ${
+                p.darkBg ? "bg-[hsl(var(--foreground))]" : "bg-white"
+              }`}
+              title={p.name}
             >
-              {p.name}
-              <ExternalLink className="w-3.5 h-3.5 opacity-0 group-hover:opacity-60 transition-opacity" />
+              <img
+                src={p.logo}
+                alt={p.name}
+                className="max-h-10 max-w-[140px] w-auto object-contain"
+              />
             </a>
           ))}
         </div>
