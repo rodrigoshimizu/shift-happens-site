@@ -1,12 +1,12 @@
 import { ExternalLink } from "lucide-react";
 
 const partners = [
-  { name: "HSM", url: "https://www.hsm.com.br", logo: "/partners/hsm.png" },
-  { name: "Singularity Brazil", url: "https://www.singularityubrazil.com", logo: "/partners/singularity.png" },
-  { name: "Learning Village", url: "https://learningvillage.com.br", logo: "/partners/learningvillage.png" },
-  { name: "Ânima", url: "https://animaeducacao.com.br", logo: "/partners/anima.png" },
-  { name: "Le Cordon Bleu", url: "https://www.cordonbleu.edu", logo: "/partners/lecordonbleu.png" },
-  { name: "B2B Match", url: "https://b2bmatch.com.br", logo: "/partners/b2bmatch.png" },
+  { name: "HSM", url: "https://www.hsm.com.br" },
+  { name: "Singularity Brazil", url: "https://www.singularityubrazil.com" },
+  { name: "Learning Village", url: "https://learningvillage.com.br" },
+  { name: "Ânima", url: "https://animaeducacao.com.br" },
+  { name: "Le Cordon Bleu", url: "https://www.cordonbleu.edu" },
+  { name: "B2B Match", url: "https://b2bmatch.com.br" },
 ];
 
 const PartnersSection = () => {
@@ -27,17 +27,10 @@ const PartnersSection = () => {
               href={p.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex flex-col items-center justify-center gap-3 px-6 py-6 bg-secondary rounded-xl border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-300"
+              className="group flex items-center justify-center gap-2 px-6 py-5 bg-secondary rounded-xl text-sm font-bold text-secondary-foreground border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-300"
             >
-              <img
-                src={p.logo}
-                alt={`Logo ${p.name}`}
-                className="w-10 h-10 object-contain rounded-md"
-              />
-              <span className="text-sm font-bold text-secondary-foreground flex items-center gap-1.5">
-                {p.name}
-                <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-60 transition-opacity" />
-              </span>
+              {p.name}
+              <ExternalLink className="w-3.5 h-3.5 opacity-0 group-hover:opacity-60 transition-opacity" />
             </a>
           ))}
         </div>
