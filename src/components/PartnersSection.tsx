@@ -32,7 +32,7 @@ const PartnersSection = () => {
               href={p.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300"
+              className="opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300 flex items-center gap-2"
               title={p.name}
             >
               <img
@@ -40,6 +40,11 @@ const PartnersSection = () => {
                 alt={p.name}
                 className="max-h-12 max-w-[150px] w-auto object-contain"
               />
+              {p.name === "Learning Village" && (
+                <span className="text-foreground font-bold text-sm leading-tight tracking-tight">
+                  LEARNING<br />VILLAGE
+                </span>
+              )}
             </a>
           ))}
         </div>
