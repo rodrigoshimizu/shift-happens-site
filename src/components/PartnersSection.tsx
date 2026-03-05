@@ -25,22 +25,20 @@ const PartnersSection = () => {
           Instituições que fortalecem a experiência SHIFT.
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-3xl mx-auto items-center justify-items-center">
           {partners.map((p) => (
             <a
               key={p.name}
               href={p.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group flex items-center justify-center px-6 py-6 rounded-xl border border-border hover:border-accent/40 hover:scale-105 transition-all duration-300 ${
-                p.darkBg ? "bg-[hsl(var(--foreground))]" : "bg-white"
-              }`}
+              className="opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300"
               title={p.name}
             >
               <img
                 src={p.logo}
                 alt={p.name}
-                className="max-h-10 max-w-[140px] w-auto object-contain"
+                className="max-h-12 max-w-[150px] w-auto object-contain"
               />
             </a>
           ))}
