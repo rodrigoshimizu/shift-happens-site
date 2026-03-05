@@ -50,7 +50,7 @@ const PartnersSection = () => {
               href={p.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300 flex items-center gap-2"
+              className="opacity-70 hover:opacity-100 hover:scale-105 transition-all duration-300 flex items-center gap-2 text-foreground"
               title={p.name}
             >
               {p.name === "B2B Match" ? (
