@@ -77,7 +77,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#apply"
+            href="/#apply"
             className="block mt-3 bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold text-center hover:opacity-90 transition-opacity"
             onClick={() => setMenuOpen(false)}
           >
