@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const footerLinks = [
-  { label: "Início", href: "#hero" },
-  { label: "Sobre", href: "#about" },
-  { label: "Comunidade", href: "#pillars" },
-  { label: "Para Quem", href: "#for-who" },
-  { label: "Processo", href: "#process" },
-  { label: "Depoimentos", href: "#testimonials" },
+  { label: "Início", href: "/#hero" },
+  { label: "Sobre", href: "/#about" },
+  { label: "Comunidade", href: "/#pillars" },
+  { label: "Para Quem", href: "/#for-who" },
+  { label: "Processo", href: "/#process" },
+  { label: "Depoimentos", href: "/#testimonials" },
 ];
 
 const Footer = () => {
