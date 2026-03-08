@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.webp";
 import { ChevronDown } from "lucide-react";
 import ApplyFormDialog from "./ApplyFormDialog";
 import { useState } from "react";
