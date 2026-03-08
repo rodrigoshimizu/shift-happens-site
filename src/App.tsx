@@ -23,6 +23,9 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/privacidade" element={<PrivacyPolicy />} />
           <Route path="/termos" element={<TermsOfUse />} />
+          <Route path="/shift-connect" element={<ShiftConnect />} />
+          <Route path="/shift-learning" element={<ShiftLearning />} />
+          <Route path="/shift-market" element={<ShiftMarket />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
