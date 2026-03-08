@@ -1,29 +1,23 @@
+import heroBg from "@/assets/hero-bg.jpg";
 import { ChevronDown } from "lucide-react";
 import ApplyFormDialog from "./ApplyFormDialog";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const HeroSection = () => {
   const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const img = new Image();
-    img.src = new URL("@/assets/hero-bg.jpg", import.meta.url).href;
-    img.onload = () => setLoaded(true);
-    // If already cached
-    if (img.complete) setLoaded(true);
-  }, []);
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-foreground">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={new URL("@/assets/hero-bg.jpg", import.meta.url).href}
+          src={heroBg}
           alt=""
           className={`w-full h-full object-cover transition-opacity duration-700 ${loaded ? "opacity-100" : "opacity-0"}`}
           loading="eager"
           fetchPriority="high"
           decoding="async"
+          onLoad={() => setLoaded(true)}
         />
         <div className="absolute inset-0 bg-foreground/30" />
       </div>
