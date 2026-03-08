@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const navItems = [
-  
-  { label: "Quem somos", href: "#about" },
-  { label: "Pilares", href: "#pillars" },
-  { label: "Para Quem", href: "#for-who" },
-  { label: "Processo", href: "#process" },
-  { label: "Depoimentos", href: "#testimonials" },
+  { label: "Quem somos", href: "/#about" },
+  { label: "Pilares", href: "/#pillars" },
+  { label: "Para Quem", href: "/#for-who" },
+  { label: "Processo", href: "/#process" },
+  { label: "Depoimentos", href: "/#testimonials" },
 ];
 
 const Navbar = () => {
