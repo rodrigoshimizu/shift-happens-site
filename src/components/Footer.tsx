@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const footerLinks = [
