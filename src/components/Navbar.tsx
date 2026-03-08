@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const navItems = [
-  
-  { label: "Quem somos", href: "#about" },
-  { label: "Pilares", href: "#pillars" },
-  { label: "Para Quem", href: "#for-who" },
-  { label: "Processo", href: "#process" },
-  { label: "Depoimentos", href: "#testimonials" },
+  { label: "Quem somos", href: "/#about" },
+  { label: "Pilares", href: "/#pillars" },
+  { label: "Para Quem", href: "/#for-who" },
+  { label: "Processo", href: "/#process" },
+  { label: "Depoimentos", href: "/#testimonials" },
 ];
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <a href="#hero">
+        <a href="/">
           <img src={logoShift} alt="SHIFT" className="h-8 md:h-10" />
         </a>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#apply"
+            href="/#apply"
             className="bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             Aplique para o SHIFT
@@ -77,7 +77,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#apply"
+            href="/#apply"
             className="block mt-3 bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold text-center hover:opacity-90 transition-opacity"
             onClick={() => setMenuOpen(false)}
           >
