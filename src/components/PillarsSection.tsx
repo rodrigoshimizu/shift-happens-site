@@ -23,12 +23,12 @@ const pillars = [
   "Desenvolvimento contínuo. Acesso a conteúdo, workshops e mentoria especializada para a fase de pós-carreira."
 },
 {
-  name: "SHIFT Market",
-  color: "text-shift-market",
-  borderColor: "border-shift-market",
-  bgColor: "bg-shift-market/10",
+  name: "SHIFT Expertise",
+  color: "text-shift-expertise",
+  borderColor: "border-shift-expertise",
+  bgColor: "bg-shift-expertise/10",
   icon: TrendingUp,
-  href: "/shift-market",
+  href: "/shift-expertise",
   description:
   "Conexão com oportunidades. Advisory, conselhos, consultoria e novos projetos que permitem continuar impactando o mercado."
 }];

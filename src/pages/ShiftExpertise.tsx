@@ -2,19 +2,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { TrendingUp, Briefcase, Building2, Rocket } from "lucide-react";
 
-const ShiftMarket = () => {
+const ShiftExpertise = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
       <main className="pt-24">
         {/* Hero */}
-        <section className="py-20 md:py-28 bg-shift-market/5">
+        <section className="py-20 md:py-28 bg-shift-expertise/5">
           <div className="container mx-auto px-6 max-w-4xl text-center">
-            <div className="w-16 h-16 rounded-2xl bg-shift-market/10 flex items-center justify-center mx-auto mb-6">
-              <TrendingUp className="w-8 h-8 text-shift-market" />
+            <div className="w-16 h-16 rounded-2xl bg-shift-expertise/10 flex items-center justify-center mx-auto mb-6">
+              <TrendingUp className="w-8 h-8 text-shift-expertise" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-              SHIFT <span className="text-shift-market">Market</span>
+              SHIFT <span className="text-shift-expertise">Expertise</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Conexão com oportunidades. Advisory, conselhos, consultoria e novos projetos que permitem continuar impactando o mercado.
@@ -26,10 +26,10 @@ const ShiftMarket = () => {
         <section className="py-20 md:py-24">
           <div className="container mx-auto px-6 max-w-4xl">
             <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-8">
-              O que é o SHIFT Market?
+              O que é o SHIFT Expertise?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              O SHIFT Market é o pilar de oportunidades do ecossistema SHIFT. Ele conecta executivos experientes a posições de advisory, assentos em conselhos, projetos de consultoria e outras formas de atuação que valorizam a senioridade.
+              O SHIFT Expertise é o pilar de oportunidades do ecossistema SHIFT. Ele conecta executivos experientes a posições de advisory, assentos em conselhos, projetos de consultoria e outras formas de atuação que valorizam a senioridade.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               É a ponte entre a experiência acumulada ao longo de décadas e as empresas que precisam exatamente desse tipo de conhecimento estratégico para crescer e se transformar.
@@ -41,7 +41,7 @@ const ShiftMarket = () => {
         <section className="py-20 md:py-24 bg-card">
           <div className="container mx-auto px-6 max-w-5xl">
             <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-12 text-center">
-              Como o Market amplia seu impacto
+              Como o Expertise amplia seu impacto
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
@@ -62,8 +62,8 @@ const ShiftMarket = () => {
                 }
               ].map((item) => (
                 <div key={item.title} className="rounded-xl border border-border bg-background p-8">
-                  <div className="w-12 h-12 rounded-lg bg-shift-market/10 flex items-center justify-center mb-5">
-                    <item.icon className="w-6 h-6 text-shift-market" />
+                  <div className="w-12 h-12 rounded-lg bg-shift-expertise/10 flex items-center justify-center mb-5">
+                    <item.icon className="w-6 h-6 text-shift-expertise" />
                   </div>
                   <h3 className="text-lg font-bold text-foreground mb-3">{item.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{item.description}</p>
@@ -96,4 +96,4 @@ const ShiftMarket = () => {
   );
 };
 
-export default ShiftMarket;
+export default ShiftExpertise;

@@ -39,7 +39,7 @@
     /* SHIFT Pillar Colors */
     --shift-connect: 349 74% 64%;
     --shift-learning: 122 39% 49%;
-    --shift-market: 207 90% 54%;
+    --shift-expertise: 207 90% 54%;
 
     /* Custom tokens */
     --section-alt: 30 15% 96%;
@@ -76,7 +76,7 @@
     --ring: 349 74% 64%;
     --shift-connect: 349 74% 64%;
     --shift-learning: 122 39% 49%;
-    --shift-market: 207 90% 54%;
+    --shift-expertise: 207 90% 54%;
     --section-alt: 0 0% 10%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
