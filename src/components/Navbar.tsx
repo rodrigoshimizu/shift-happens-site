@@ -30,7 +30,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <a href="#hero">
+        <a href="/">
           <img src={logoShift} alt="SHIFT" className="h-8 md:h-10" />
         </a>
 
