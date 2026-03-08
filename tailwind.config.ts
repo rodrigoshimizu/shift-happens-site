@@ -63,7 +63,7 @@ export default {
         },
         "shift-connect": "hsl(var(--shift-connect))",
         "shift-learning": "hsl(var(--shift-learning))",
-        "shift-market": "hsl(var(--shift-market))",
+        "shift-expertise": "hsl(var(--shift-expertise))",
         "section-alt": "hsl(var(--section-alt))",
       },
       borderRadius: {
