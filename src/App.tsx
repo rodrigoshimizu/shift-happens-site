@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import ShiftConnect from "./pages/ShiftConnect";
+import ShiftLearning from "./pages/ShiftLearning";
+import ShiftMarket from "./pages/ShiftMarket";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
