@@ -8,6 +8,7 @@ const pillars = [
   borderColor: "border-shift-connect",
   bgColor: "bg-shift-connect/10",
   icon: Users,
+  href: "/shift-connect",
   description:
   "Relacionamento com densidade. Conexões reais com pares, mentores e oportunidades em um ambiente de confiança e generosidade."
 },
@@ -17,6 +18,7 @@ const pillars = [
   borderColor: "border-shift-learning",
   bgColor: "bg-shift-learning/10",
   icon: BookOpen,
+  href: "/shift-learning",
   description:
   "Desenvolvimento contínuo. Acesso a conteúdo, workshops e mentoria especializada para a fase de pós-carreira."
 },
@@ -26,6 +28,7 @@ const pillars = [
   borderColor: "border-shift-market",
   bgColor: "bg-shift-market/10",
   icon: TrendingUp,
+  href: "/shift-market",
   description:
   "Conexão com oportunidades. Advisory, conselhos, consultoria e novos projetos que permitem continuar impactando o mercado."
 }];
