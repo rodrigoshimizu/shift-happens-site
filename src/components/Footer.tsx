@@ -39,10 +39,10 @@ const Footer = () => {
             © {new Date().getFullYear()} SHIFT. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/privacidade" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Política de Privacidade
             </a>
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/termos" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Termos de Uso
             </a>
           </div>
