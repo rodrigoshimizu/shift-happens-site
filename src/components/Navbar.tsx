@@ -46,7 +46,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#apply"
+            href="/#apply"
             className="bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             Aplique para o SHIFT
