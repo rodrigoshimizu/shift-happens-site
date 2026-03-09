@@ -55,7 +55,11 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <Link to="/">
+        <Link to="/" onClick={() => {
+          if (location.pathname === '/') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }}>
           <img src={logoShift} alt="SHIFT" className="h-8 md:h-10" />
         </Link>
 
