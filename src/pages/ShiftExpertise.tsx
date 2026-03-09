@@ -5,9 +5,22 @@ import Footer from "@/components/Footer";
 import { TrendingUp, Briefcase, Building2, Rocket } from "lucide-react";
 
 const ShiftExpertise = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleApplyClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById('apply');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
 
   return (
     <div className="min-h-screen bg-background">
