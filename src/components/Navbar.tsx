@@ -98,7 +98,10 @@ const Navbar = () => {
               key={item.href}
               href={item.href}
               className="block py-3 text-base font-bold text-muted-foreground hover:text-foreground transition-colors"
-              onClick={() => setMenuOpen(false)}
+              onClick={(e) => {
+                handleNavClick(e, item.href);
+                setMenuOpen(false);
+              }}
             >
               {item.label}
             </a>
@@ -106,7 +109,10 @@ const Navbar = () => {
           <a
             href="/#apply"
             className="block mt-3 bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold text-center hover:opacity-90 transition-opacity"
-            onClick={() => setMenuOpen(false)}
+            onClick={(e) => {
+              handleNavClick(e, "/#apply");
+              setMenuOpen(false);
+            }}
           >
             Aplique para o SHIFT
           </a>
