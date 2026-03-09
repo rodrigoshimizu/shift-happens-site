@@ -5,9 +5,22 @@ import Footer from "@/components/Footer";
 import { Users, MessageCircle, Handshake, Heart } from "lucide-react";
 
 const ShiftConnect = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleApplyClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById('apply');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
 
   return (
     <div className="min-h-screen bg-background">
