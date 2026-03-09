@@ -1,22 +1,48 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const footerLinks = [
   { label: "Início", href: "/#hero" },
   { label: "Sobre", href: "/#about" },
-  { label: "Comunidade", href: "/#pillars" },
+  { label: "Pilares", href: "/#pillars" },
   { label: "Para Quem", href: "/#for-who" },
   { label: "Processo", href: "/#process" },
   { label: "Depoimentos", href: "/#testimonials" },
 ];
 
 const Footer = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    const hash = href.split('#')[1];
+
+    if (location.pathname === '/' && hash) {
+      e.preventDefault();
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else if (hash) {
+      e.preventDefault();
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
+  };
+
   return (
     <footer className="bg-background border-t border-border py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
-            <img src={logoShift} alt="SHIFT" className="h-10" />
+            <Link to="/">
+              <img src={logoShift} alt="SHIFT" className="h-10" />
+            </Link>
             <p className="text-muted-foreground text-sm mt-1">
               Líderes em Movimento
             </p>
@@ -27,6 +53,7 @@ const Footer = () => {
               <a
                 key={link.href}
                 href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {link.label}
