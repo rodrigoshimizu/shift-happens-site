@@ -104,7 +104,7 @@ const ShiftExpertise = () => {
             <a
               href="/#apply"
               onClick={handleApplyClick}
-              className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+              className="inline-block bg-secondary text-secondary-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
             >
               Join SHIFT
             </a>
