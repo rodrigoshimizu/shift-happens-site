@@ -1,7 +1,7 @@
 import { ArrowRightLeft, Briefcase, Users, Shield, Target } from "lucide-react";
 
 const profiles = [
-{ icon: ArrowRightLeft, text: "Está em transição de carreira e busca redirecionamento" },
+{ icon: ArrowRightLeft, bold: "Está em transição", text: " e busca redirecionamento com clareza" },
 { icon: Briefcase, text: "Busca autonomia profissional e novos desafios" },
 { icon: Users, text: "Prepara-se para atuar em conselhos ou advisory" },
 { icon: Shield, text: "Deseja compartilhar experiência e fazer mentoria" },
@@ -29,7 +29,10 @@ const ForWhoSection = () => {
               <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
                 <item.icon className="w-5 h-5 text-accent" />
               </div>
-              <p className="text-foreground font-medium">{item.text}</p>
+              <p className="text-foreground font-medium">
+                {item.bold && <span className="font-bold">{item.bold}</span>}
+                {item.text}
+              </p>
             </div>
           )}
         </div>
