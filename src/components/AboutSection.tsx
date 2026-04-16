@@ -1,27 +1,43 @@
+import shiftVideo from "@/assets/shift-lideres-em-movimento.mp4";
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 md:py-32 bg-section-alt">
-      <div className="container mx-auto px-6 max-w-3xl">
+      <div className="container mx-auto px-6 max-w-6xl">
         <h2 className="text-3xl md:text-5xl font-extrabold text-foreground mb-12 text-balance">
           O SHIFT
         </h2>
 
-        <div className="space-y-6 text-base md:text-lg leading-relaxed text-muted-foreground">
-          <p>
-            Existe um momento na trajetória de líderes seniores que nenhum headhunter resolve, nenhum MBA prepara e nenhuma rede genérica atende.
-          </p>
-          <p>
-            É o momento entre ciclos. Quando a experiência acumulada é enorme, mas o próximo passo ainda não tem forma. Quando o que falta não é competência, é contexto, pares e oportunidade com densidade.
-          </p>
-          <p className="text-foreground font-semibold">
-            O SHIFT nasceu para esse momento. Um espaço curado, confidencial, onde executivos em movimento encontram quem entende, quem desafia e quem abre portas que não estão no mercado aberto.
-          </p>
-          <p>
-            Não somos uma comunidade aberta. Não somos um evento. Não somos um marketplace de contatos.
-          </p>
-          <p className="text-foreground font-bold text-lg md:text-xl">
-            Somos um clube com critérios. Um ecossistema com intenção. Um ponto de encontro para quem quer construir, não apenas transitar.
-          </p>
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+          <div className="space-y-6 text-base md:text-lg leading-relaxed text-muted-foreground">
+            <p>
+              Existe um momento na trajetória de líderes seniores que nenhum headhunter resolve, nenhum MBA prepara e nenhuma rede genérica atende.
+            </p>
+            <p>
+              É o momento entre ciclos. Quando a experiência acumulada é enorme, mas o próximo passo ainda não tem forma. Quando o que falta não é competência, é contexto, pares e oportunidade com densidade.
+            </p>
+            <p className="text-foreground font-semibold">
+              O SHIFT nasceu para esse momento. Um espaço curado, confidencial, onde executivos em movimento encontram quem entende, quem desafia e quem abre portas que não estão no mercado aberto.
+            </p>
+            <p>
+              Não somos uma comunidade aberta. Não somos um evento. Não somos um marketplace de contatos.
+            </p>
+            <p className="text-foreground font-bold text-lg md:text-xl">
+              Somos um clube com critérios. Um ecossistema com intenção. Um ponto de encontro para quem quer construir, não apenas transitar.
+            </p>
+          </div>
+
+          <div className="lg:sticky lg:top-24">
+            <div className="rounded-2xl overflow-hidden shadow-lg bg-foreground/5 aspect-[9/16] max-w-sm mx-auto">
+              <video
+                src={shiftVideo}
+                controls
+                playsInline
+                preload="metadata"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
