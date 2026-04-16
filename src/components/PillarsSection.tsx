@@ -64,6 +64,7 @@ Nossos Pilares</h2>
                 {pillar.name}
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
+                <span className="font-bold text-foreground">{pillar.headline}</span>{" "}
                 {pillar.description}
               </p>
               <span className={`inline-flex items-center gap-1 text-sm font-semibold ${pillar.color} group-hover:gap-2 transition-all`}>
