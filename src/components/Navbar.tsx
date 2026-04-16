@@ -62,10 +62,10 @@ const Navbar = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }
           }}
-          className="flex flex-col items-start leading-none"
+          className="inline-flex flex-col leading-none"
         >
-          <img src={logoShift} alt="SHIFT" className="h-8 md:h-10" />
-          <span className="mt-1 text-[10px] md:text-xs font-semibold tracking-wide text-muted-foreground">
+          <img src={logoShift} alt="SHIFT" className="h-8 md:h-10 w-auto block" />
+          <span className="mt-1 text-[10px] md:text-xs font-semibold tracking-wide text-muted-foreground text-center w-full whitespace-nowrap" style={{ fontSize: 'clamp(0.55rem, 1.6vw, 0.7rem)' }}>
             Líderes em Movimento
           </span>
         </Link>
