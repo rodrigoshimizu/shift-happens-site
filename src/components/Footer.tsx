@@ -39,14 +39,12 @@ const Footer = () => {
     <footer className="bg-background border-t border-border py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <div className="flex flex-col items-center text-center">
-            <Link to="/">
-              <img src={logoShift} alt="SHIFT" className="h-10" />
-            </Link>
-            <p className="text-muted-foreground text-sm mt-1">
+          <Link to="/" className="inline-flex flex-col leading-none">
+            <img src={logoShift} alt="SHIFT" className="h-8 md:h-10 w-auto block" />
+            <span className="mt-1 text-[10px] md:text-xs font-semibold tracking-wide text-muted-foreground text-center w-full whitespace-nowrap" style={{ fontSize: 'clamp(0.55rem, 1.6vw, 0.7rem)' }}>
               Líderes em Movimento
-            </p>
-          </div>
+            </span>
+          </Link>
 
           <div className="flex flex-wrap justify-center gap-6">
             {footerLinks.map((link) => (
