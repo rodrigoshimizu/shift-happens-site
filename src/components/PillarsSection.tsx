@@ -40,7 +40,7 @@ const PillarsSection = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
 
-Os Três Pilares</h2>
+Nossos Pilares</h2>
         <p className="text-muted-foreground text-center text-lg mb-16 max-w-xl mx-auto">O pós-carreira não é aposentadoria — é uma fase de reinvenção e continuidade produtiva, onde experiência se transforma em propósito. o SHIFT criou um ecossistema completo para facilitar sua jornada de pós-carreira.
 
 
