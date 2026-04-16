@@ -106,7 +106,7 @@ const ShiftConnect = () => {
               onClick={handleApplyClick}
               className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
             >
-              Aplique para o SHIFT
+              Join SHIFT
             </a>
           </div>
         </section>

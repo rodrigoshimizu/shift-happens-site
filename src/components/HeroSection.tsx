@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="mt-10 animate-fade-in-up [animation-delay:600ms] opacity-0">
           <ApplyFormDialog>
             <button className="inline-block bg-accent text-accent-foreground px-8 py-4 rounded-lg text-base font-bold hover:opacity-90 transition-opacity shadow-lg">
-              Aplique para o SHIFT
+              Join SHIFT
             </button>
           </ApplyFormDialog>
         </div>
