@@ -87,7 +87,7 @@ const Navbar = () => {
             onClick={(e) => handleNavClick(e, "/#apply")}
             className="bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
           >
-            Aplique para o SHIFT
+            Join SHIFT
           </a>
         </div>
 
@@ -125,7 +125,7 @@ const Navbar = () => {
               setMenuOpen(false);
             }}
           >
-            Aplique para o SHIFT
+            Join SHIFT
           </a>
         </div>
       )}
