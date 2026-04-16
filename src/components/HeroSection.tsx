@@ -25,7 +25,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground leading-tight animate-fade-in-up max-w-4xl mx-auto text-balance">
-          Seu ciclo pós-carreira merece curadoria.
+          Seu próximo ciclo merece curadoria.
         </h1>
         <p className="mt-6 text-base md:text-lg text-primary-foreground/70 max-w-xl mx-auto animate-fade-in-up [animation-delay:400ms] opacity-0">
           O SHIFT conecta líderes em movimento a pares, repertório e novas oportunidades.
