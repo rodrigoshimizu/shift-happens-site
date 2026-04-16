@@ -48,7 +48,7 @@ const ShiftConnect = () => {
               O que é o SHIFT Connect?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6 whitespace-pre-line">
-              O SHIFT Connect é o pilar de relacionamento do ecossistema SHIFT.{"\n\n"}
+              <strong className="font-bold">O SHIFT Connect é o pilar de relacionamento do ecossistema SHIFT.</strong>{"\n\n"}
               Ele reúne líderes experientes em um ambiente curado, de confiança e troca qualificada, para construir conexões com quem compartilha desafios, ambições e o desejo de seguir em movimento.{"\n"}
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
