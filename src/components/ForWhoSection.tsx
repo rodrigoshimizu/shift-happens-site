@@ -5,7 +5,7 @@ const profiles = [
 { icon: Briefcase, bold: "Busca mais autonomia", text: " e novos caminhos de atuação" },
 { icon: Users, bold: "Prepara-se para conselhos", text: ", advisory ou mentoria" },
 { icon: Shield, bold: "Quer transformar experiência", text: " em contribuição relevante" },
-{ icon: Target, text: "Quer continuar gerando impacto com propósito" },
+{ icon: Target, bold: "Deseja seguir gerando impacto", text: " com mais propósito" },
 { icon: Users, text: "Quer construir novas conexões e ampliar conhecimentos" }];
 
 
