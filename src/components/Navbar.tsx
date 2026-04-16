@@ -55,12 +55,19 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <Link to="/" onClick={() => {
-          if (location.pathname === '/') {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }
-        }}>
+        <Link
+          to="/"
+          onClick={() => {
+            if (location.pathname === '/') {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }}
+          className="flex flex-col items-start leading-none"
+        >
           <img src={logoShift} alt="SHIFT" className="h-8 md:h-10" />
+          <span className="mt-1 text-[10px] md:text-xs font-semibold tracking-wide text-muted-foreground">
+            Líderes em Movimento
+          </span>
         </Link>
 
         {/* Desktop Nav */}
