@@ -4,7 +4,7 @@ const profiles = [
 { icon: ArrowRightLeft, bold: "Está em transição", text: " e busca redirecionamento com clareza" },
 { icon: Briefcase, bold: "Busca mais autonomia", text: " e novos caminhos de atuação" },
 { icon: Users, bold: "Prepara-se para conselhos", text: ", advisory ou mentoria" },
-{ icon: Shield, text: "Deseja compartilhar experiência e fazer mentoria" },
+{ icon: Shield, bold: "Quer transformar experiência", text: " em contribuição relevante" },
 { icon: Target, text: "Quer continuar gerando impacto com propósito" },
 { icon: Users, text: "Quer construir novas conexões e ampliar conhecimentos" }];
 
