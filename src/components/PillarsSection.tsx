@@ -41,9 +41,10 @@ const PillarsSection = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
 
 Nossos Pilares</h2>
-        <p className="text-muted-foreground text-center text-lg mb-16 max-w-xl mx-auto">O pós-carreira não é aposentadoria — é uma fase de reinvenção e continuidade produtiva, onde experiência se transforma em propósito. o SHIFT criou um ecossistema completo para facilitar sua jornada de pós-carreira.
-
-
+        <p className="text-muted-foreground text-center text-lg mb-16 max-w-2xl mx-auto">
+          A experiência não termina com o cargo, ela ganha novas formas de impacto.
+          <br /><br />
+          O SHIFT reúne conexões qualificadas, aprendizagem contínua e novas oportunidades para apoiar esse próximo ciclo.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
