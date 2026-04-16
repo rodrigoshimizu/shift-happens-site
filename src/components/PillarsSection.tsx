@@ -10,7 +10,7 @@ const pillars = [
   icon: Users,
   href: "/shift-connect",
   description:
-  "Relacionamento com densidade. Conexões reais com pares, mentores e oportunidades em um ambiente de confiança e generosidade."
+  "Conexões reais com pares, mentores e uma comunidade curada, construída sobre confiança, troca e generosidade."
 },
 {
   name: "SHIFT Learning",
