@@ -31,9 +31,9 @@ const pillars = [
   bgColor: "bg-shift-expertise/10",
   icon: TrendingUp,
   href: "/shift-expertise",
-  headline: "Conexão com oportunidades.",
+  headline: "Experiência que gera oportunidade.",
   description:
-  "Advisory, conselhos, consultoria e novos projetos que permitem continuar impactando o mercado."
+  "Advisory, conselhos, consultoria e projetos estratégicos para transformar trajetória em novas formas de atuação e impacto no mercado."
 }];
 
 
