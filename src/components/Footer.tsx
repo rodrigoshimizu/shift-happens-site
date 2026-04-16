@@ -39,7 +39,7 @@ const Footer = () => {
     <footer className="bg-background border-t border-border py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <div>
+          <div className="flex flex-col items-center text-center">
             <Link to="/">
               <img src={logoShift} alt="SHIFT" className="h-10" />
             </Link>
