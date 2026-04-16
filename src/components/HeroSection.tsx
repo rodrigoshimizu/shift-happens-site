@@ -23,7 +23,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 text-center pt-32 md:pt-40">
+      <div className="relative z-10 container mx-auto px-6 text-center pt-44 md:pt-52">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary-foreground leading-tight animate-fade-in-up max-w-4xl mx-auto text-balance">
           Seu próximo ciclo merece curadoria.
         </h1>
