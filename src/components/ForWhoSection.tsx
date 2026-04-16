@@ -14,7 +14,7 @@ const ForWhoSection = () => {
     <section id="for-who" className="py-24 md:py-32 bg-section-alt">
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground text-center mb-4">
-          O SHIFT é para você se...
+          O SHIFT é para líderes que…
         </h2>
         <p className="text-muted-foreground text-center text-lg mb-16 max-w-xl mx-auto">
           Líderes seniores com +25 anos de experiência em momento de reinvenção.
