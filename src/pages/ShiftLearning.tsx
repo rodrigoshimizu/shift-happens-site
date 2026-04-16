@@ -44,10 +44,10 @@ const ShiftLearning = () => {
         {/* O que é */}
         <section className="py-20 md:py-24">
           <div className="container mx-auto px-6 max-w-4xl">
-            <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-8">
+            <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-4">
               O que é o SHIFT Learning?
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-2">
+            <p className="text-muted-foreground text-lg leading-relaxed mb-1">
               O SHIFT Learning é o pilar educacional do ecossistema SHIFT. Ele oferece trilhas de aprendizado, workshops práticos e mentoria personalizada — tudo pensado para executivos que querem continuar evoluindo e se reinventando.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
