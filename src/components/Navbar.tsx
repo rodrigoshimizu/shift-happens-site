@@ -26,7 +26,15 @@ const Navbar = () => {
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     const hash = href.split('#')[1];
-    
+
+    if (!hash) {
+      // Link sem hash (ex: /manifesto) — navegação SPA normal
+      e.preventDefault();
+      navigate(href);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
     if (location.pathname === '/' && hash) {
       // Se já estamos na home, previne o comportamento padrão e faz scroll suave
       e.preventDefault();
