@@ -22,7 +22,7 @@ const pillars = [
   href: "/shift-learning",
   headline: "Desenvolvimento contínuo.",
   description:
-  "Acesso a conteúdo, workshops e mentoria especializada para a fase de pós-carreira."
+  "Conteúdos, workshops e experiências de aprendizagem desenhados para ampliar repertório, aprofundar reflexões e apoiar novas escolhas."
 },
 {
   name: "SHIFT Expertise",
