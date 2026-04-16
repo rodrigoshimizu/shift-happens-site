@@ -47,11 +47,12 @@ const ShiftConnect = () => {
             <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-8">
               O que é o SHIFT Connect?
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              O SHIFT Connect é o pilar de comunidade do ecossistema SHIFT. Ele cria um espaço seguro e curado para executivos em transição de carreira se conectarem com pessoas que compartilham dos mesmos desafios, ambições e momento de vida.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6 whitespace-pre-line">
+              O SHIFT Connect é o pilar de relacionamento do ecossistema SHIFT.{"\n\n"}
+              Ele reúne líderes experientes em um ambiente curado, de confiança e troca qualificada, para construir conexões com quem compartilha desafios, ambições e o desejo de seguir em movimento.{"\n\n\n"}
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Mais do que networking tradicional, o Connect promove vínculos genuínos — baseados em vulnerabilidade, troca de experiências e apoio mútuo — que se transformam em relações duradouras e oportunidades reais.
+              Mais do que networking tradicional, o Connect promove relações genuínas — baseadas em abertura, generosidade e experiência compartilhada — que se transformam em vínculos duradouros, repertório relevante e novas oportunidades.
             </p>
           </div>
         </section>
