@@ -85,7 +85,7 @@ const Navbar = () => {
           <a
             href="/#apply"
             onClick={(e) => handleNavClick(e, "/#apply")}
-            className="bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
+            className="bg-secondary text-secondary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             Join SHIFT
           </a>
@@ -119,7 +119,7 @@ const Navbar = () => {
           ))}
           <a
             href="/#apply"
-            className="block mt-3 bg-accent text-accent-foreground px-5 py-2.5 rounded-lg text-sm font-semibold text-center hover:opacity-90 transition-opacity"
+            className="block mt-3 bg-secondary text-secondary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold text-center hover:opacity-90 transition-opacity"
             onClick={(e) => {
               handleNavClick(e, "/#apply");
               setMenuOpen(false);
