@@ -48,10 +48,10 @@ const ShiftLearning = () => {
               O que é o SHIFT Learning?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-1">
-              O SHIFT Learning é o pilar educacional do ecossistema SHIFT. Ele oferece trilhas de aprendizado, workshops práticos e mentoria personalizada — tudo pensado para executivos que querem continuar evoluindo e se reinventando.
+              Não é sobre voltar à sala de aula.<br /><br />É sobre aprender com relevância, troca qualificada e aplicação prática — a partir dos desafios reais de quem continua em movimento.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Não se trata de voltar à sala de aula tradicional. É sobre aprender de forma relevante, com conteúdo atualizado e aplicável à realidade de quem está construindo o próximo capítulo da sua trajetória profissional.
+              {"\n"}
             </p>
           </div>
         </section>
@@ -60,14 +60,14 @@ const ShiftLearning = () => {
         <section className="py-20 md:py-24 bg-card">
           <div className="container mx-auto px-6 max-w-5xl">
             <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-12 text-center">
-              Como o Learning acelera seu desenvolvimento
+              Como o SHIFT Learning amplia seu repertório
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   icon: GraduationCap,
-                  title: "Workshops práticos",
-                  description: "Sessões hands-on com especialistas em temas como governança, inovação, liderança e transformação digital."
+                  title: "Workshops aplicados",
+                  description: "Sessões práticas com especialistas em temas como governança, liderança, inovação, transformação digital e novas formas de atuação."
                 },
                 {
                   icon: Lightbulb,
