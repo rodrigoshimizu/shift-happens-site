@@ -6,7 +6,7 @@ const profiles = [
 { icon: Users, bold: "Prepara-se para conselhos", text: ", advisory ou mentoria" },
 { icon: Shield, bold: "Quer transformar experiência", text: " em contribuição relevante" },
 { icon: Target, bold: "Deseja seguir gerando impacto", text: " com mais propósito" },
-{ icon: Users, text: "Quer construir novas conexões e ampliar conhecimentos" }];
+{ icon: Users, bold: "Busca conexões qualificadas", text: " e aprendizado contínuo" }];
 
 
 const ForWhoSection = () => {
