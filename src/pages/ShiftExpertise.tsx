@@ -69,17 +69,17 @@ const ShiftExpertise = () => {
                 {
                   icon: Briefcase,
                   title: "Advisory & Consultoria",
-                  description: "Oportunidades de consultoria estratégica em empresas que buscam a experiência e visão de executivos seniores."
+                  description: "Conexão com empresas que buscam visão estratégica, repertório executivo e experiência prática para apoiar decisões, crescimento e transformação."
                 },
                 {
                   icon: Building2,
                   title: "Conselhos & Boards",
-                  description: "Acesso a posições em conselhos consultivos e administrativos de empresas em diferentes estágios de maturidade."
+                  description: "Acesso a oportunidades em conselhos consultivos e administrativos, em empresas que valorizam governança, senioridade e contribuição qualificada."
                 },
                 {
                   icon: Rocket,
-                  title: "Novos projetos",
-                  description: "Conexão com startups, scale-ups e projetos inovadores que precisam de liderança experiente para acelerar resultados."
+                  title: "Projetos Estratégicos",
+                  description: "Participação em startups, scale-ups e iniciativas de transformação que precisam de liderança experiente para acelerar resultados com mais consistência."
                 }
               ].map((item) => (
                 <div key={item.title} className="rounded-xl border border-border bg-background p-8">
