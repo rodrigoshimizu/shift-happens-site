@@ -17,7 +17,7 @@ const ForWhoSection = () => {
           O SHIFT é para líderes que…
         </h2>
         <p className="text-muted-foreground text-center text-lg mb-16 max-w-xl mx-auto">
-          Líderes seniores com +25 anos de experiência em momento de reinvenção.
+          querem construir o próximo ciclo com mais intenção, conexão e impacto.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6">
