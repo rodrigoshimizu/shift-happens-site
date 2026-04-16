@@ -48,7 +48,10 @@ const ShiftLearning = () => {
               O que é o SHIFT Learning?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-1">
-              Não é sobre voltar à sala de aula.<br /><br />É sobre aprender com relevância, troca qualificada e aplicação prática — a partir dos desafios reais de quem continua em movimento.
+              O SHIFT Learning é o pilar de aprendizagem do ecossistema SHIFT.<br /><br />
+              Ele reúne conteúdos, workshops e mentorias desenhados para líderes experientes que querem seguir evoluindo, ampliar repertório e construir o próximo ciclo com mais intenção.<br /><br /><br /><br />
+              Não é sobre voltar à sala de aula.<br /><br />
+              É sobre aprender com relevância, troca qualificada e aplicação prática — a partir dos desafios reais de quem continua em movimento.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               {"\n"}
@@ -71,13 +74,13 @@ const ShiftLearning = () => {
                 },
                 {
                   icon: Lightbulb,
-                  title: "Mentoria especializada",
-                  description: "Acesso a mentores experientes que já trilharam o caminho da transição e podem guiar sua jornada com clareza."
+                  title: "Mentoria qualificada",
+                  description: "Trocas com profissionais experientes que oferecem perspectiva, repertório e provocações úteis para decisões mais conscientes no próximo ciclo."
                 },
                 {
                   icon: Target,
-                  title: "Conteúdo curado",
-                  description: "Trilhas de aprendizado personalizadas com materiais selecionados para o momento e os objetivos de cada membro."
+                  title: "Conteúdo com curadoria",
+                  description: "Trilhas de aprendizagem e materiais selecionados para ampliar visão, aprofundar temas relevantes e apoiar diferentes momentos da trajetória."
                 }
               ].map((item) => (
                 <div key={item.title} className="rounded-xl border border-border bg-background p-8">
