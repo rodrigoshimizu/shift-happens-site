@@ -61,14 +61,14 @@ const ShiftConnect = () => {
         <section className="py-20 md:py-24 bg-card">
           <div className="container mx-auto px-6 max-w-5xl">
             <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-12 text-center">
-              Como o Connect transforma sua jornada
+              Como o SHIFT Connect impulsiona seu próximo ciclo.
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   icon: MessageCircle,
-                  title: "Encontros curados",
-                  description: "Eventos presenciais e virtuais desenhados para promover conversas profundas e conexões significativas entre pares."
+                  title: "Encontros com curadoria",
+                  description: "Experiências presenciais e virtuais desenhadas para promover conversas relevantes, trocas qualificadas e conexões com real potencial de continuidade."
                 },
                 {
                   icon: Handshake,
