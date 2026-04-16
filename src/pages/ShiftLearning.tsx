@@ -48,7 +48,7 @@ const ShiftLearning = () => {
               O que é o SHIFT Learning?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-1">
-              O SHIFT Learning é o pilar de aprendizagem do ecossistema SHIFT.<br /><br />
+              <strong className="font-bold">O SHIFT Learning é o pilar de aprendizagem do ecossistema SHIFT.</strong><br /><br />
               Ele reúne conteúdos, workshops e mentorias desenhados para líderes experientes que querem seguir evoluindo, ampliar repertório e construir o próximo ciclo com mais intenção.<br /><br />
               Não é sobre voltar à sala de aula.<br /><br />
               É sobre aprender com relevância, troca qualificada e aplicação prática — a partir dos desafios reais de quem continua em movimento.
