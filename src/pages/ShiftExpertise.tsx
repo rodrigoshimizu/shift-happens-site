@@ -47,11 +47,13 @@ const ShiftExpertise = () => {
             <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-8">
               O que é o SHIFT Expertise?
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              O SHIFT Expertise é o pilar de oportunidades do ecossistema SHIFT. Ele conecta executivos experientes a posições de advisory, assentos em conselhos, projetos de consultoria e outras formas de atuação que valorizam a senioridade.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6 whitespace-pre-line">
+              O SHIFT Expertise é o pilar que transforma experiência em atuação.{"\n\n"}
+              Ele conecta líderes experientes a oportunidades em advisory, conselhos, consultoria e projetos estratégicos, criando novas formas de contribuir com o mercado a partir da senioridade acumulada.
             </p>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              É a ponte entre a experiência acumulada ao longo de décadas e as empresas que precisam exatamente desse tipo de conhecimento estratégico para crescer e se transformar.
+            <p className="text-muted-foreground text-lg leading-relaxed whitespace-pre-line">
+              Mais do que abrir portas, o Expertise aproxima trajetória e demanda real.{"\n\n"}
+              Conecta repertório, visão e capacidade de execução a empresas que precisam exatamente desse tipo de contribuição para crescer, decidir melhor e evoluir com mais consistência
             </p>
           </div>
         </section>
