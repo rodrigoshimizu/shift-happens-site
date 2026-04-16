@@ -9,6 +9,7 @@ import TermsOfUse from "./pages/TermsOfUse";
 import ShiftConnect from "./pages/ShiftConnect";
 import ShiftLearning from "./pages/ShiftLearning";
 import ShiftExpertise from "./pages/ShiftExpertise";
+import Manifesto from "./pages/Manifesto";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/shift-connect" element={<ShiftConnect />} />
           <Route path="/shift-learning" element={<ShiftLearning />} />
           <Route path="/shift-expertise" element={<ShiftExpertise />} />
+          <Route path="/manifesto" element={<Manifesto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
