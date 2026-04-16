@@ -73,12 +73,12 @@ const ShiftConnect = () => {
                 {
                   icon: Handshake,
                   title: "Rede de confiança",
-                  description: "Acesso a uma comunidade exclusiva de executivos seniores com experiências complementares e disposição para colaborar."
+                  description: "Experiências presenciais e virtuais desenhadas para promover conversas relevantes, trocas qualificadas e conexões com real potencial de continuidade."
                 },
                 {
                   icon: Heart,
-                  title: "Suporte emocional",
-                  description: "Um ambiente onde é seguro compartilhar desafios, dúvidas e aspirações — sem julgamentos, com empatia real."
+                  title: "Troca genuína",
+                  description: "Um ambiente de confiança para falar com honestidade, ampliar perspectivas e construir relações com mais profundidade, generosidade e valor prático."
                 }
               ].map((item) => (
                 <div key={item.title} className="rounded-xl border border-border bg-background p-8">
