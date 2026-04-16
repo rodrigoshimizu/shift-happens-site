@@ -48,7 +48,7 @@ const ShiftExpertise = () => {
               O que é o SHIFT Expertise?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6 whitespace-pre-line">
-              <strong className="font-bold text-foreground">O SHIFT Expertise é o pilar que transforma experiência em atuação.</strong>{"\n\n"}
+              <strong className="font-bold">O SHIFT Expertise é o pilar que transforma experiência em atuação.</strong>{"\n\n"}
               Ele conecta líderes experientes a oportunidades em advisory, conselhos, consultoria e projetos estratégicos, criando novas formas de contribuir com o mercado a partir da senioridade acumulada.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed whitespace-pre-line">
