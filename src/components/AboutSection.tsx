@@ -27,8 +27,8 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="lg:sticky lg:top-24">
-            <div className="rounded-2xl overflow-hidden shadow-lg bg-foreground/5 aspect-[9/16] max-w-sm mx-auto">
+          <div className="flex items-center justify-center lg:sticky lg:top-24 lg:h-[calc(100vh-12rem)]">
+            <div className="rounded-2xl overflow-hidden shadow-lg bg-foreground/5 aspect-[9/16] w-full max-w-sm">
               <video
                 src={shiftVideo}
                 controls
