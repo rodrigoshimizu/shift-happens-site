@@ -1,4 +1,4 @@
-import { Users, BookOpen, Diamond, ArrowRight } from "lucide-react";
+import { Users, BookOpen, Gem, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const pillars = [
@@ -29,7 +29,7 @@ const pillars = [
   color: "text-shift-expertise",
   borderColor: "border-shift-expertise",
   bgColor: "bg-shift-expertise/10",
-  icon: Diamond,
+  icon: Gem,
   href: "/shift-expertise",
   headline: "Experiência que gera oportunidade.",
   description:
