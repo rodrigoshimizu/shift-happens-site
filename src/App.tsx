@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/shift-connect" element={<ShiftConnect />} />
           <Route path="/shift-learning" element={<ShiftLearning />} />
           <Route path="/shift-expertise" element={<ShiftExpertise />} />
+          <Route path="/quem-somos" element={<Manifesto />} />
           <Route path="/manifesto" element={<Manifesto />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
