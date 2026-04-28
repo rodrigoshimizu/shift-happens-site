@@ -23,7 +23,7 @@ const AboutSection = () => {
               Não somos uma comunidade aberta. Não somos um evento. Não somos um marketplace de contatos.
             </p>
             <p className="text-foreground font-bold text-lg md:text-xl">
-              Somos um clube com critérios. Um ecossistema com intenção. Um ponto de encontro para quem quer construir, não apenas transitar.
+              Somos um ecossistema premium para líderes experientes construírem seu próximo movimento de impacto.
             </p>
           </div>
 
