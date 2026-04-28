@@ -4,8 +4,8 @@ import { useLocation, useNavigate, Link } from "react-router-dom";
 import logoShift from "@/assets/logo-shift.jpeg";
 
 const navItems = [
-  { label: "Quem somos", href: "/#about" },
-  { label: "Manifesto SHIFT", href: "/manifesto" },
+  { label: "Home", href: "/#hero" },
+  { label: "Quem Somos", href: "/quem-somos" },
   { label: "Pilares", href: "/#pillars" },
   { label: "Para Quem", href: "/#for-who" },
   { label: "Processo", href: "/#process" },
