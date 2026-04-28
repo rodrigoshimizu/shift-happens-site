@@ -68,9 +68,6 @@ const Manifesto = () => {
               <p className="text-foreground font-semibold">
                 Decidimos construir o que faltava: um ecossistema premium, por convite, onde líderes em transição encontram quem entende, quem desafia e quem abre portas que não estão no mercado aberto.
               </p>
-              <p>
-                Hoje, o SHIFT é um ponto de encontro intencional. Um clube com critérios. Um movimento de líderes em movimento.
-              </p>
             </div>
           </div>
         </section>
